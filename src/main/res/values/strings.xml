@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Klic</string>
+	<string name="show_output">Show output</string>
+	<string name="copy_to_clipboard">Copy</string>
+	<string name="input_placeholder">Enter text here</string>
+	<string name="text_copied">Text copied to clipboard</string>
+
+	<string-array name="keyboard_layouts">
+        <item>Russian</item>
+        <item>English(Querty)</item>
+	</string-array>
+
+</resources>

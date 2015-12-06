@@ -157,14 +157,34 @@ object LayoutConverter {
       |йцукенгшщзхъ
       |фывапролджэ
       |ячсмитьбю
-      |""".toVector,
+      |Ё!"№;%:?*()_+
+      |ЙЦУКЕНГШЩЗХЪ
+      |ФЫВАПРОЛДЖЭ
+      |ЯЧСМИТЬБЮ
+      |""".stripMargin.toVector,
     Qwerty ->
     """
-      |~1234567890-=
+      |`1234567890-=
       |qwertyuiop[]
       |asdfghjkl;'
       |zxcvbnm,.
-      |""".toVector
+      |~!@#$%^&*()-+
+      |QWERTYUIOP[]
+      |ASDFGHJKL;'
+      |ZXCVBNM,.
+      |""".stripMargin.toVector,
+    Dvorak ->
+    """
+      |`1234567890[]
+      |',.pyfgcrl/=
+      |aoeuidhtns-
+      |;qjkxbmwv
+      |~!@#$%^&*(){}
+      |"<>PYFGCRL?+
+      |AOEUIDHTNS_
+      |:QJKXBMWV
+    """.stripMargin.toVector
+
   )
 
   assert(layouts(Russian).size == layouts(Qwerty).size)

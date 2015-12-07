@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="show_output">Показать</string>
+	<string name="copy_to_clipboard">Скопировать</string>
+	<string name="input_placeholder">Введите текст</string>
+	<string name="text_copied">Текст скопирован в буфер</string>
+	<string name="invalid_input_for_layout">Недопустимые символы для %1$s раскладки</string>
+
+	<string-array name="keyboard_layouts">
+		<item>Русский</item>
+		<item>Qwerty</item>
+		<item>Дворак</item>
+	</string-array>
+</resources>

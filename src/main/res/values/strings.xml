@@ -5,7 +5,7 @@
 	<string name="copy_to_clipboard">Copy</string>
 	<string name="input_placeholder">Enter text here</string>
 	<string name="text_copied">Text copied to clipboard</string>
-	<string name="invalid_input_for_layout">Invalid input for %1%s</string>
+	<string name="invalid_input_for_layout">Invalid input for %1$s layout</string>
 
 	<string-array name="keyboard_layouts">
         <item>Russian</item>

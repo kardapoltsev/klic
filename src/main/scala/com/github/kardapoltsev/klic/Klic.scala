@@ -39,6 +39,9 @@ class Klic extends SActivity with Logger {
     from.setAdapter(keyboardAdapter)
     to.setAdapter(keyboardAdapter)
 
+    from.onItemSelected {
+      input.setText(null)
+    }
     to.onItemSelected {
       refreshOutput(input.getText.toString)
     }
@@ -73,7 +76,8 @@ class Klic extends SActivity with Logger {
       if(s.toString.forall(LayoutConverter.isValid(selectedFromLayout, _))) {
         refreshOutput(s.toString)
       } else {
-        toast(
+        alert(
+          "!",
           String.format(getString(R.string.invalid_input_for_layout), selectedFromLayout.toString)
         )
       }
